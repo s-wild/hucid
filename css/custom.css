@@ -1,0 +1,23 @@
+/*
+ * Custom CSS file.
+ *
+ */
+
+ /* Global classes. */
+ .max-width {
+   max-width: 26em;
+ }
+.auto-center {
+  margin: 0 auto;
+}
+.block-display {
+  display: block;
+}
+.inner-text-spacing {
+  padding-top: 1em;
+}
+
+/* FontAwesome */
+.fa {
+  margin-right: 0.3em;
+}
