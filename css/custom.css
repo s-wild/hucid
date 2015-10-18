@@ -16,6 +16,9 @@
 .inner-text-spacing {
   padding-top: 1em;
 }
+.bottom-spacing {
+  margin-bottom: 1em;
+}
 
 /* FontAwesome */
 .fa {

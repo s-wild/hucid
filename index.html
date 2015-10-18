@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Login</title>
+    <title>Expo Login</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/libraries/bootstrap.min.css" type='text/css'>
     <!-- Custom CSS -->
@@ -12,11 +12,19 @@
   <body>
     <div class="well max-width auto-center">
       <h1 class="text-center">Exbo</h1>
-      <h2 class="text-center"><i class="fa fa-sign-in"></i>Login</h2>
-      <form class="text-center">
-        First name: <input type="text" name="username"><br>
-        Last name: <input type="text" name="password"><br>
-        <input type="submit" value="Submit">
+      <form class="text-center form-group">
+        <input type="text" name="username" placeholder="Username" class="form-control bottom-spacing">
+        <input type="password" name="password" placeholder="Password" class="form-control bottom-spacing">
+
+        <!-- Login -->
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+          <i class="fa fa-sign-in"></i>Login
+        </button>
+
+        <!-- Register -->
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+          <i class="fa fa-user-plus"></i>Register
+        </button>
         <a class="block-display inner-text-spacing" href="pages/events-list.html"><button type="button" class="btn"><i class="fa fa-arrow-right"></i>Skip</button></a>
       </form>
     </div>
