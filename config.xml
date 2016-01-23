@@ -17,5 +17,9 @@
         up637415@myport.ac.uk
     </author>
 
+    <platform name="android" >
+      <preference name="orientation" value="portrait" />
+    </platform>
+
     <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
 </widget>
