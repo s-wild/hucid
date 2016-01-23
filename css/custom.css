@@ -5,7 +5,6 @@
 /* Text Styling */
 h1 {
   padding-bottom: 0.5em;
-  font-size: 1.5em;
 }
  /* Global classes. */
  .max-width {
@@ -34,6 +33,9 @@ h1 {
   padding-top: 1em;
   text-align: right;
 }
+.right-buttons .btn {
+  font-size: 2em;
+}
 .mobile-button {
   width: 100%;
   display: block;
@@ -61,9 +63,6 @@ h1 {
   border-radius: 0.2em;
 }
 /* Events List Page */
-.events h1 {
-  padding-bottom: 0;
-}
 .events h2 {
   margin-top: 0;
   font-size: 1.2em;

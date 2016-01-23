@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+				id="com.telerik.plugins.nativepagetransitions"
+				version="0.5.7">
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>HUCID Expo</name>
+
+    <description>
+        HUCID Expo Application.
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        up637415@myport.ac.uk
+    </author>
+
+    <plugin name="com.telerik.plugins.nativepagetransitions" spec="0.2.2" source="pgb" />
+
+</widget>
