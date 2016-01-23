@@ -13,8 +13,3 @@ $( document ).ready(function() {
     });
   });
 });
-
-window.plugins.nativepagetransitions.slide({
-    // the defaults for direction, duration, etc are all fine
-    "href" : "pages/register.html"
-});
