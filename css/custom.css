@@ -27,21 +27,45 @@ h1 {
   width: 100%;
   display: block;
   margin-bottom: 1em;
+  background-color: #555;
+  color: #fff;
 }
-
+.mobile-button:hover {
+  background-color: #222;
+  color: #fff;
+}
 .mobile-button-big {
   width: 100%;
   display: block;
   margin-bottom: 0.5em;
   padding: 1em 0;
   font-size: 1.4em;
+  background-color: #555;
+  color: #fff;
 }
-
 /* Picture Notes */
 .picture-it {
   max-width: 5em;
   height: auto;
   border-radius: 0.2em;
+}
+/* Events List Page */
+.events h1 {
+  padding-bottom: 0;
+}
+.events h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+.events .mobile-button {
+ margin-bottom: 0.2em;
+}
+.event-item {
+  padding: 0.5em;
+  background-color: #BFBFBF;
+}
+.invert-event {
+  background-color: #E8E8E8;
 }
 
 /* FontAwesome */
