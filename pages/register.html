@@ -10,32 +10,44 @@
     <link rel="stylesheet" href="../css/libraries/font-awesome-4.4.0/css/font-awesome.min.css" type='text/css'>
   </head>
   <body>
-    <!-- Button font changers. -->
-    <div class="right-buttons">
-      <button id="increase" type="button" class="btn btn-default">A+</button>
-      <button id="decrease" type="button" class="btn btn-default">A-</button>
-    </div>
+
 
     <!-- Page Content -->
     <div class="container">
-        <div class="auto-center">
+      <div class="row">
+        <div class="col-xs-8">
           <h1 class="text-center"><i class="fa fa-user-plus"></i>Register</h1>
-          <form class="text-center form-group">
-            <input type="text" name="fname" placeholder="First Name" class="form-control bottom-spacing">
-            <input type="text" name="lname" placeholder="Last Name" class="form-control bottom-spacing">
-            <input type="text" name="email" placeholder="Email Address" class="form-control bottom-spacing">
-            <input type="password" name="password" placeholder="Password" class="form-control bottom-spacing">
-            <input type="password" name="cpassword" placeholder="Confirm Password" class="form-control bottom-spacing">
-
-            <!-- Register Fields. -->
-            <a class="block-display" href="home.html">
-              <button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
-                <i class="fa fa-sign-in"></i>Submit
-              </button>
-            </a>
-
-          </form>
+        </div>
+        <div class="col-xs-4">
+          <!-- Button font changers. -->
+          <div class="right-buttons">
+            <button id="increase" type="button" class="btn btn-default">A+</button>
+            <button id="decrease" type="button" class="btn btn-default">A-</button>
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="auto-center">
+            <form class="text-center form-group">
+              <input type="text" name="fname" placeholder="First Name" class="form-control bottom-spacing">
+              <input type="text" name="lname" placeholder="Last Name" class="form-control bottom-spacing">
+              <input type="text" name="email" placeholder="Email Address" class="form-control bottom-spacing">
+              <input type="password" name="password" placeholder="Password" class="form-control bottom-spacing">
+              <input type="password" name="cpassword" placeholder="Confirm Password" class="form-control bottom-spacing">
+
+              <!-- Register Fields. -->
+              <a class="block-display" href="home.html">
+                <button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
+                  <i class="fa fa-sign-in"></i>Submit
+                </button>
+              </a>
+
+            </form>
+        </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

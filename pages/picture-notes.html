@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Take A Picture Note</title>
+    <!-- JS Scripts -->
+    <script src="../js/libraries/jquery-1.12.0.min.js"></script>
+    <script src="../js/custom-scripts.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/libraries/bootstrap.min.css" type='text/css'>
     <!-- Custom CSS -->
@@ -10,22 +14,33 @@
     <link rel="stylesheet" href="../css/libraries/font-awesome-4.4.0/css/font-awesome.min.css" type='text/css'>
   </head>
   <body>
-    <!-- Button font changers. -->
-    <div class="right-buttons">
-      <button id="increase" type="button" class="btn btn-default">A+</button>
-      <button id="decrease" type="button" class="btn btn-default">A-</button>
-    </div>
 
     <!-- Page Content -->
     <div class="container">
-      <div class="auto-center">
-        <h1 class="text-center">Picture Notes</h1>
-        <a class="block-display" href="event.html"><button type="button" class="mobile-button-big btn"><i class="fa fa-camera-retro"></i>Take A Picture Note -></button></a>
-        <img src="images/cac.png" alt="CNC Event" class="picture-it">
-        <img src="images/diehl-defence.png" alt="Diehl Defence" class="picture-it">
-        <img src="images/cac.png" alt="CNC Event" class="picture-it">
-
+      <div class="row">
+        <div class="col-xs-8 no-right-padding">
+          <h1>Picture Notes</h1>
+        </div>
+        <div class="col-xs-4 no-left-padding">
+          <!-- Button font changers. -->
+          <div class="right-buttons">
+            <button id="increase" type="button" class="btn btn-default">A+</button>
+            <button id="decrease" type="button" class="btn btn-default">A-</button>
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="auto-center">
+            <a class="block-display" href="event.html"><button type="button" class="mobile-button-big btn"><i class="fa fa-camera-retro"></i>Take A Picture Note -></button></a>
+            <img src="images/cac.png" alt="CNC Event" class="picture-it">
+            <img src="images/diehl-defence.png" alt="Diehl Defence" class="picture-it">
+            <img src="images/cac.png" alt="CNC Event" class="picture-it">
+
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

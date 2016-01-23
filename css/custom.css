@@ -5,6 +5,7 @@
 /* Text Styling */
 h1 {
   padding-bottom: 0.5em;
+  font-size: 1.5em;
 }
  /* Global classes. */
  .max-width {
@@ -22,11 +23,16 @@ h1 {
 .bottom-spacing {
   margin-bottom: 1em;
 }
+.no-right-padding {
+  padding-right: 0;
+}
+.no-left-padding {
+  padding-left: 0;
+}
 /* Button Styling */
 .right-buttons {
-  position: absolute;
-  right: 1em;
-  top: 1.5em;
+  padding-top: 1em;
+  text-align: right;
 }
 .mobile-button {
   width: 100%;

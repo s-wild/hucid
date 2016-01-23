@@ -13,33 +13,43 @@
     <link rel="stylesheet" href="css/libraries/font-awesome-4.4.0/css/font-awesome.min.css" type='text/css'>
   </head>
   <body>
-    <!-- Button font changers. -->
-    <div class="right-buttons">
-      <button id="increase" type="button" class="btn btn-default">A+</button>
-      <button id="decrease" type="button" class="btn btn-default">A-</button>
-    </div>
 
     <!-- Page Content -->
     <div class="container">
-      <div class="auto-center">
-        <h1 class="text-center">Welcome, Please Login</h1>
-        <form class="text-center form-group">
-          <input type="text" name="username" placeholder="Username" class="form-control bottom-spacing">
-          <input type="password" name="password" placeholder="Password" class="form-control bottom-spacing">
+      <div class="row">
+        <div class="col-xs-8 no-right-padding">
+          <h1>Welcome, Please Login</h1>
+        </div>
+        <div class="col-xs-4 no-left-padding">
+          <!-- Button font changers. -->
+          <div class="right-buttons">
+            <button id="increase" type="button" class="btn btn-default">A+</button>
+            <button id="decrease" type="button" class="btn btn-default">A-</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="auto-center">
+            <form class="text-center form-group">
+              <input type="text" name="username" placeholder="Username" class="form-control bottom-spacing">
+              <input type="password" name="password" placeholder="Password" class="form-control bottom-spacing">
 
-          <!-- Login -->
-          <a class="block-display" href="pages/home.html">
-            <button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
-              <i class="fa fa-sign-in"></i>Login
-            </button>
-          </a>
+              <!-- Login -->
+              <a class="block-display" href="pages/home.html">
+                <button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
+                  <i class="fa fa-sign-in"></i>Login
+                </button>
+              </a>
 
-          <!-- Register -->
-          <a href="pages/register.html" title="Register"><button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
-            <i class="fa fa-user-plus"></i>Register
-          </button></a>
-          <a class="block-display" href="pages/home.html"><button type="button" class="mobile-button-big btn"><i class="fa fa-arrow-right"></i>Skip</button></a>
-        </form>
+              <!-- Register -->
+              <a href="pages/register.html" title="Register"><button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
+                <i class="fa fa-user-plus"></i>Register
+              </button></a>
+              <a class="block-display" href="pages/home.html"><button type="button" class="mobile-button-big btn"><i class="fa fa-arrow-right"></i>Skip</button></a>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </body>
