@@ -72,3 +72,8 @@ h1 {
 .fa {
   margin-right: 0.3em;
 }
+
+/* Bootstrap Overides */
+.form-control {
+  font-size: 1.4em;
+}
