@@ -17,6 +17,8 @@
         up637415@myport.ac.uk
     </author>
 
+    <gap:plugin name="com.keith.cordova.plugin.canvascamera" />
+
     <platform name="android" >
       <preference name="orientation" value="portrait" />
       <icon src="icon.png" />
