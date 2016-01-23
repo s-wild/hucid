@@ -2,7 +2,10 @@
  * Custom CSS file.
  *
  */
-
+/* Text Styling */
+h1 {
+  padding-bottom: 0.5em;
+}
  /* Global classes. */
  .max-width {
    max-width: 26em;
@@ -18,6 +21,27 @@
 }
 .bottom-spacing {
   margin-bottom: 1em;
+}
+/* Button Styling */
+.mobile-button {
+  width: 100%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.mobile-button-big {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 1em 0;
+  font-size: 1.4em;
+}
+
+/* Picture Notes */
+.picture-it {
+  max-width: 5em;
+  height: auto;
+  border-radius: 0.2em;
 }
 
 /* FontAwesome */
