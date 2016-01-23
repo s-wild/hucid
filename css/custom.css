@@ -4,7 +4,9 @@
  */
 /* Text Styling */
 h1 {
-  padding-bottom: 0.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0.3em;
 }
  /* Global classes. */
  .max-width {
@@ -29,11 +31,11 @@ h1 {
   padding-left: 0;
 }
 /* Button Styling */
-.right-buttons {
-  padding-top: 1em;
-  text-align: right;
+.control-buttons {
+  text-align: center;
+  margin-top: 1em;
 }
-.right-buttons .btn {
+.control-buttons .btn {
   font-size: 1.8em;
 }
 .mobile-button {
@@ -80,7 +82,10 @@ h1 {
 .invert-event {
   background-color: #E8E8E8;
 }
-
+/* Social */
+.social h2 {
+  font-size: 1.7em;
+}
 /* FontAwesome */
 .fa {
   margin-right: 0.3em;
@@ -89,4 +94,12 @@ h1 {
 /* Bootstrap Overides */
 .form-control {
   font-size: 1.4em;
+}
+
+/* Contrasted Theme */
+body.contrasted {
+  background-color: #222;
+}
+.contrasted h1 {
+  color: #fff;
 }

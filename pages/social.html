@@ -5,6 +5,7 @@
     <!-- JS Scripts -->
     <script src="../js/libraries/jquery-1.12.0.min.js"></script>
     <script src="../js/custom-scripts.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/libraries/bootstrap.min.css" type='text/css'>
     <!-- Custom CSS -->
@@ -12,26 +13,49 @@
     <!-- fontAwesome -->
     <link rel="stylesheet" href="../css/libraries/font-awesome-4.4.0/css/font-awesome.min.css" type='text/css'>
   </head>
-  <body>
-    <!-- Button font changers. -->
-    <div class="right-buttons">
-      <button id="increase" type="button" class="btn btn-default">A+</button>
-      <button id="decrease" type="button" class="btn btn-default">A-</button>
-    </div>
+  <body class="social">
 
     <!-- Page Content -->
     <div class="container">
-      <!-- Button font changers. -->
-      <div class="right-buttons">
-        <button id="increase" type="button" class="btn btn-default">A+</button>
-        <button id="decrease" type="button" class="btn btn-default">A-</button>
+      <div class="row">
+        <div class="col-xs-8 no-right-padding">
+          <h1>Social</h1>
+        </div>
+        <div class="col-xs-4 no-left-padding">
+          <!-- Button font changers. -->
+          <div class="right-buttons">
+            <button id="increase" type="button" class="btn btn-default">A+</button>
+            <button id="decrease" type="button" class="btn btn-default">A-</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="event-item">
+            <h2><i class="fa fa-newspaper-o"></i>Sign up for newsletter</h2>
+            <form class="text-center form-group">
+
+              <input type="text" name="email" placeholder="Email Address" class="form-control bottom-spacing">
+
+              <!-- Register Fields. -->
+              <a class="block-display" href="home.html">
+                <button type="button" class="mobile-button-big btn btn-default" aria-label="Left Align">
+                  <i class="fa fa-sign-in"></i>Submit
+                </button>
+              </a>
+
+            </form>
+          </div>
+          <div class="event-item invert-event">
+            <h2><i class="fa fa-twitter"></i>Twitter</h2>
+            <p>Join the discussion within twitter</p>
+            <a class="block-display" href="map.html"><button type="button" class="mobile-button-big mobile-button-big btn btn-default">View on Map <i class="fa fa-arrow-right"></i></button></a>
+          </div>
+        </div>
       </div>
 
-      <!-- Page Content -->
-      <div class="auto-center">
-        <h1 class="text-center">Social</h1>
-        <p>Social stuff to go here.</p>
-      </div>
+
+
     </div>
   </body>
 </html>

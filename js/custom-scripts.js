@@ -12,13 +12,9 @@ $( document ).ready(function() {
         return (+v.match(/\d+/).join() + 2) + 'px';
     });
   });
+
+  $('#contrast-switch').click(function(){
+        $("body").toggleClass("contrasted");
+    });
+
 });
-
-document.addEventListener('deviceready', function () {
-
-    // have to call initialize function with canvas object
-    var objCanvas = document.getElementById("canvas");
-    window.plugin.CanvasCamera.initialize(objCanvas);
-
-    // window.plugin.CanvasCamera is now available
-}, false);
