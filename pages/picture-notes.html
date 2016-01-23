@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Take A Picture Note</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1"/>
+    <script type="text/javascript" charset="utf-8" src="js/phonegap.js"></script>
     <!-- JS Scripts -->
     <script src="../js/libraries/jquery-1.12.0.min.js"></script>
     <script src="../js/custom-scripts.js"></script>
@@ -32,7 +34,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="auto-center">
-            <a class="block-display" href="event.html"><button type="button" class="mobile-button-big btn"><i class="fa fa-camera-retro"></i>Take A Picture Note -></button></a>
+            <a class="block-display" href="event.html"><button onclick="capturePhotoWithData();" type="button" class="mobile-button-big btn"><i class="fa fa-camera-retro"></i>Take A Picture Note -></button></a>
             <img src="images/cac.png" alt="CNC Event" class="picture-it">
             <img src="images/diehl-defence.png" alt="Diehl Defence" class="picture-it">
             <img src="images/cac.png" alt="CNC Event" class="picture-it">
