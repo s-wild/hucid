@@ -23,6 +23,11 @@ h1 {
   margin-bottom: 1em;
 }
 /* Button Styling */
+.right-buttons {
+  position: absolute;
+  right: 1em;
+  top: 1.5em;
+}
 .mobile-button {
   width: 100%;
   display: block;
@@ -63,6 +68,9 @@ h1 {
 .event-item {
   padding: 0.5em;
   background-color: #BFBFBF;
+}
+.events .mobile-button-big {
+  margin-bottom: 0.1em;
 }
 .invert-event {
   background-color: #E8E8E8;
