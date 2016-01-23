@@ -19,7 +19,7 @@
 
     <platform name="android" >
       <preference name="orientation" value="portrait" />
+      <icon src="icon.png" />
     </platform>
 
-    <gap:plugin name="com.telerik.plugins.nativepagetransitions" source="npm" />
 </widget>
