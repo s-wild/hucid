@@ -103,6 +103,8 @@ h1 {
 /* Contrasted Theme */
 body.contrasted {
   background-color: #222;
+  background-image: none;
+  background-size: none;
 }
 .contrasted h1 {
   color: #fff;
