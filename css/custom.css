@@ -3,6 +3,10 @@
  *
  */
 /* Text Styling */
+body {
+  background-image: url("../pages/images/bg.png");
+  background-size: cover;
+}
 h1 {
   padding-top: 0;
   padding-bottom: 0;
